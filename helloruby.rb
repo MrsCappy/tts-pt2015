@@ -14,4 +14,5 @@ puts "What are your dogs and cats names?"
 name1 = gets.chomp
 name2 = gets.chomp
 name3 = gets.chomp
-puts " My dogs names are " + name1 + "," + name2 + " and " + name3 + "." 
+puts " My dogs and cat names are " + name1 + "," + name2 + " and " + name3 + "." 
+
