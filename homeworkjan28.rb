@@ -36,7 +36,7 @@ in irb
 =end
 
 =begin
-4) When dividing numbers in Ruby, what if we want to include the remainder as well? Write a program that asks for two integers, divides the first by the second and returns the result including the remainder. If either of the numbers is not an integer, then don’t accept the number and ask again. Do not accept zero (0) as a number. The output should be similar to this:
+4) When dividing numbers in Ruby, what if we want to include the remainder as well? Write a program that asks for two integers. If either of the numbers is not an integer, then don’t accept the number and ask again. Do not accept zero (0) as a number. Divide the first by the second and return the result including the remainder.  The output should be similar to this:
 
  
 $ ruby divider.rb
@@ -48,14 +48,64 @@ Enter an Integer: 4
 You said to calculate: 6 / 4
 
 The answer is 1 with a remainder of 2
-in irb
 
-result = 6.0/4.0; result.to_f  
-1.5
+=end
+=begin
+puts "What numbers are you dividing?"
+a = gets.chomp.to_i
+b = gets.chomp.to_i
+
+answer = a / b
+remainder = a % b
+
+puts "The answer is " + answer.to_s + " and a remainder of " + remainder.to_s + " at the end."
+=end
+
+puts "Enter an Integer."
+a = gets.chomp.to_i
+
+while a == 0
+   puts "Please enter a valid integer."
+   a = gets.chomp.to_i
+end
+    
+puts "Enter an Integer."
+b = gets.chomp.to_i
+
+while b == 0
+   puts "Please enter a valid integer."
+   b = gets.chomp.to_i
+end
+
+answer = a / b
+remainder = a % b
+
+
+puts "The answer is " + answer.to_s + " and a remainder of " + remainder.to_s + " at the end."
+
+
+=begin
+(lession is integer division)
+while conditional [do]
+  code
+end
+
+want to validate the integer so that it doesnt become a float
+string.to_f = 0.0
+
+a cast to float
+a.to_f
+while
+
+see if the interger version equals the same as the float version.
+(float comes in 1.4, int = 1)
 =end
 
 
- 
+
+
+
+
 
 
 
