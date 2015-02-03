@@ -15,7 +15,7 @@ puts my_name.chomp + ' is ' + height_centimeters.to_s + ' cm and ' + weight_kilo
 =end
 
 =begin
-2) Write a program that takes a string argument and outputs the string in reverse.
+#2) Write a program that takes a string argument and outputs the string in reverse.
 done in irb
 
 name = "parttime rocks!"; name.reverse!
@@ -49,8 +49,8 @@ You said to calculate: 6 / 4
 
 The answer is 1 with a remainder of 2
 
-=end
-=begin
+
+
 puts "What numbers are you dividing?"
 a = gets.chomp.to_i
 b = gets.chomp.to_i
@@ -61,28 +61,31 @@ remainder = a % b
 puts "The answer is " + answer.to_s + " and a remainder of " + remainder.to_s + " at the end."
 =end
 
+=begin
 puts "Enter an Integer."
 a = gets.chomp.to_i
 
-while a == 0
+  while a == 0
    puts "Please enter a valid integer."
-   a = gets.chomp.to_i
-end
+    a = gets.chomp.to_i
+  end
+
     
 puts "Enter an Integer."
 b = gets.chomp.to_i
-
-while b == 0
+  
+   while b == 0
    puts "Please enter a valid integer."
    b = gets.chomp.to_i
-end
+   end
+
 
 answer = a / b
 remainder = a % b
 
 
 puts "The answer is " + answer.to_s + " and a remainder of " + remainder.to_s + " at the end."
-
+=end
 
 =begin
 (lession is integer division)
