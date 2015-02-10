@@ -1,0 +1,10 @@
+body {
+  background: url("http://www.tumblr18.com/t18/2013/12/Three-pink-daisies.jpeg" width="699" height="393")
+    background-size: cover;
+    margin: 40px auto; 
+}
+
+ h1 {
+        font-weight: bold;
+        color: #c00000;
+      }
