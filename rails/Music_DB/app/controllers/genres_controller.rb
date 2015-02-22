@@ -10,7 +10,6 @@ class GenresController < ApplicationController
   # GET /genres/1
   # GET /genres/1.json
   def show
-    @artists = Artist.all
   end
 
   # GET /genres/new
